@@ -22,11 +22,61 @@
         <div class="body-2-grand-mere">
             <h2>Mise en avant des <br>produits du jour</h2>
             <div class="body-2-mere">
-                <div class="body-2-fille"></div>
-                <div class="body-2-fille"></div>
-                <div class="body-2-fille"></div>
+                <div class="body-2-fille">
+                    <h3>Galette des Rois</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quidem autem aperiam enim at.
+                        Ratione exercitationem sed corrupti veniam nihil consectetur, ad, vel dolorum a repudiandae
+                        beatae reprehenderit similique quibusdam?</p>
+                    <a href="#">En savoir plus</a>
+                </div>
+                <div class="body-2-fille">
+                    <h3>Bûche de Noël</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quidem autem aperiam enim at.
+                        Ratione exercitationem sed corrupti veniam nihil consectetur, ad, vel dolorum a repudiandae
+                        beatae reprehenderit similique quibusdam?</p>
+                    <a href="#">En savoir plus</a>
+                </div>
+                <div class="body-2-fille">
+                    <h3>Brioche</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quidem autem aperiam enim at.
+                        Ratione exercitationem sed corrupti veniam nihil consectetur, ad, vel dolorum a repudiandae
+                        beatae reprehenderit similique quibusdam?</p>
+                    <a href="#">En savoir plus</a>
+                </div>
             </div>
             <a href="#">Ajouter au panier</a>
+        </div>
+    </div>
+    <div class="body-3">
+        <div class="body-3-grand-mere">
+            <div class="body-3-mere">
+                <h3>Bûche de Noël</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quidem autem aperiam enim at.
+                    Ratione exercitationem sed corrupti veniam nihil consectetur, ad, vel dolorum a repudiandae
+                    beatae reprehenderit similique quibusdam?</p>
+                <a href="#">En savoir plus</a>
+            </div>
+            <div class="body-3-mere">
+                <h3>Bûche de Noël</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quidem autem aperiam enim at.
+                    Ratione exercitationem sed corrupti veniam nihil consectetur, ad, vel dolorum a repudiandae
+                    beatae reprehenderit similique quibusdam?</p>
+                <a href="#">En savoir plus</a>
+            </div>
+            <div class="body-3-mere">
+                <h3>Bûche de Noël</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quidem autem aperiam enim at.
+                    Ratione exercitationem sed corrupti veniam nihil consectetur, ad, vel dolorum a repudiandae
+                    beatae reprehenderit similique quibusdam?</p>
+                <a href="#">En savoir plus</a>
+            </div>
+            <div class="body-3-mere">
+                <h3>Bûche de Noël</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quidem autem aperiam enim at.
+                    Ratione exercitationem sed corrupti veniam nihil consectetur, ad, vel dolorum a repudiandae
+                    beatae reprehenderit similique quibusdam?</p>
+                <a href="#">En savoir plus</a>
+            </div>
         </div>
     </div>
 </body>
