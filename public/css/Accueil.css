@@ -15,6 +15,7 @@ body {
 .body-1 {
     width: 100%;
     height: 100vh;
+    margin-top: 12.5vh;
 }
 
 .imageArrierePlan {
@@ -62,7 +63,7 @@ body {
 
 .body-2 {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,11 +80,14 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 4vw;
     color: #3A2F1B;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3A2F1B;
 }
 
 .body-2-grand-mere {
     width: 80%;
-    height: 90%;
+    height: 100%;
     background-color: #fff4e3;
     border-radius: 20px;
     display: flex;
@@ -91,7 +95,7 @@ body {
     flex-direction: column;
 }
 
-.body-2-mere {
+.body-2-mere-1 {
     width: 85%;
     height: 80%;
     background-color: #3A2F1B;
@@ -101,10 +105,10 @@ body {
     align-items: center;
 }
 
-.body-2-fille {
+.body-2-fille-1 {
     background-color: white;
     width: 25%;
-    height: 90%;
+    height: 100%;
     border-radius: 70px;
     background-position: center;
     background-size: cover;
@@ -114,22 +118,27 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
 }
 
-.body-2-fille p {
+.body-2-fille-1 p {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 1vw;
 }
 
-.body-2-fille h3 {
+.body-2-fille-1 h3 {
     margin-left: 10px;
     font-size: 2vw;
     margin-right: 10px;
     text-align: center;
 }
 
-.body-2-fille a {
+.body-2-fille-1 a {
     font-size: 1vw;
     text-align: center;
     background-color: #3A2F1B;
@@ -141,41 +150,29 @@ body {
     transition: all 0.2s ease;
 }
 
-.body-2-fille a:hover {
+.body-2-fille-1 a:hover {
     border: 2px solid #3A2F1B;
     color: #3A2F1B;
     text-decoration: 1px underline #3A2F1B;
     background-color: #fff4e3;
 }
 
-.body-2-fille:nth-of-type(1) {
+.body-2-fille-1:nth-of-type(1) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('/images/imagesAccueil/galetteDesRois.jpg');
 }
 
-.body-2-fille:nth-of-type(2) {
+.body-2-fille-1:nth-of-type(2) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('/images/imagesAccueil/bucheDeNoel.jpg');
 }
 
-.body-2-fille:nth-of-type(3) {
+.body-2-fille-1:nth-of-type(3) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('/images/imagesAccueil/brioche.jpg');
 }
 
-.body-3 {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 40px;
-    padding-bottom: 40px;
-    border-bottom: solid 2px #ffdaa7;
-}
-
-.body-3-grand-mere {
+.body-2-mere-2 {
     width: 80%;
     height: 90%;
     background-color: #fff4e3;
@@ -187,68 +184,4 @@ body {
     /* 2 lignes */
     justify-items: center;
     align-items: center;
-}
-
-.body-3-mere {
-    width: 95%;
-    height: 95%;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-
-.body-3-mere:nth-child(1) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('/images/imagesAccueil/brioche.jpg');
-    border-top-left-radius: 20px;
-}
-
-.body-3-mere:nth-child(2) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('/images/imagesAccueil/brioche.jpg');
-    border-top-right-radius: 20px;
-}
-
-.body-3-mere:nth-child(3) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('/images/imagesAccueil/brioche.jpg');
-    border-bottom-left-radius: 20px;
-}
-
-.body-3-mere:nth-child(4) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('/images/imagesAccueil/brioche.jpg');
-    border-bottom-right-radius: 20px;
-}
-.body-3-mere a {
-    font-size: 1vw;
-    text-align: center;
-    background-color: #3A2F1B;
-    color: #fff4e3;
-    padding: 10px 5px 10px 5px;
-    text-decoration: none;
-    border-radius: 10px;
-    border: 2px solid #fff4e3;
-    transition: all 0.2s ease;
-}
-
-.body-3-mere a:hover {
-    border: 2px solid #3A2F1B;
-    color: #3A2F1B;
-    text-decoration: 1px underline #3A2F1B;
-    background-color: #fff4e3;
-}
-.body-3-mere p {
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 1vw;
-    text-align: justify;
-}
-
-.body-3-mere h3 {
-    margin-left: 30px;
-    margin-top: 10px;
-    font-size: 2vw;
 }
