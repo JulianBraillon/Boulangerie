@@ -16,7 +16,12 @@
         <div class="imageArrierePlan">
             <div class="body-1-mere">
                 <h1>Inscription</h1>
-                <form action="{{ route('register') }}" method="post" class="body-1-fille">
+                @if(session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
+                <form action="{{ url('/inscription') }}" method="post" class="body-1-fille">
                     @csrf
                     <div>
                         <label for="nom">Nom d'utilisa•teur•trice :</label>

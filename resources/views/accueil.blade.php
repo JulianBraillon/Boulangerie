@@ -15,7 +15,12 @@
     <div class="body-1">
         <div class="imageArrierePlan">
             <h1>Le Pain d'Antan</h1>
-            <p>" Le vrai goût du temps passé "</p>
+            <p> cococ</p>
+            @if (session('success'))
+                {{ session('success') }}
+            @endif
+            {{ session('user_name') }}
+            <p>" Le vrai goût du temps passé  {{  Auth::user() ?? 'rien' }}"</p>
             <a href="#">Découvrir nos créations</a>
         </div>
     </div>
