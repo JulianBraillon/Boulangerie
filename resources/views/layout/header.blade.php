@@ -18,8 +18,8 @@
             <a href="{{ url('/boutique') }}">• Boutique</a>
         </div>
         <div class="right-header">
-            <a href="{{ url('/inscription') }}">Inscription</a>
             <a href="{{ url('/connexion') }}">Connexion</a>
+            <a href="{{ url('/inscription') }}">Inscription</a>
         </div>
     </div>
 </body>

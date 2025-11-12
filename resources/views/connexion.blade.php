@@ -14,15 +14,21 @@
     @include('layout.header')
     <div class="body-1">
         <div class="imageArrierePlan">
-            <h1>Connexion</h1>
-            <form action="#" method="post">
-                <input type="mail" placeholder="email.com">
-                <input type="password">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-            </form>
-
+            <div class="body-1-mere">
+                <h1>Connexion</h1>
+                <form action="#" method="post" class="body-1-fille">
+                    @csrf
+                    <div>
+                        <label for="email">Adresse e-mail :</label>
+                        <input type="email" placeholder="mdupont@gmail.com" name="mail">
+                    </div>
+                    <div>
+                        <label for="mdp">Mot de passe :</label>
+                        <input type="password" placeholder="*******" name="mdp">
+                    </div>
+                    <button name="bouton">S'inscrire</button>
+                </form>
+            </div>
         </div>
     </div>
 
